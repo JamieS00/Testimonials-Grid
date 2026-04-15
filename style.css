@@ -1,3 +1,7 @@
+.cards {
+  border: 14px solid blue;
+}
+
 .Dan,
 .Jon,
 .Jean,
@@ -6,4 +10,9 @@
   border: 1px solid black;
   border-radius: 5px;
   padding: 20px;
+}
+
+footer {
+  margin-top: 6px;
+  text-align: center;
 }
