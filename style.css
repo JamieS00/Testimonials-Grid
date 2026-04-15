@@ -1,5 +1,12 @@
 .cards {
   border: 14px solid blue;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.four-cards {
+  border: 14px solid pink;
+  display: flex;
 }
 
 .Dan,
