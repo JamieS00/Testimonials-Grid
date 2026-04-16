@@ -1,15 +1,22 @@
 .cards {
   border: 14px solid blue;
-  display: flex;
+  /* display: flex; */
   /* justify-content: center;
   align-items: center; */
 }
 img {
   float: left;
 }
-.four-cards {
+
+.two-cards {
   border: 14px solid pink;
   display: flex;
+  gap: 4px;
+}
+.container {
+  display: flex;
+  gap: 4px;
+  /* flex-direction: row; */
 }
 
 .Dan,
