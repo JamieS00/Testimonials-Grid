@@ -1,62 +1,53 @@
 .container {
-  /* font-size: 13px;
-  font-family: "Barlow Semi Condensed", sans-serif; */
   border: 8px solid blue;
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
-  /* border: 14px solid blue; */
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
+  gap: 20px;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
-/* img {
+img {
   float: left;
-  border-radius: 50%;
+  border-radius: 20%;
   margin-right: 10px;
-} */
-/**
-.two-cards {
-  display: flex;
-  margin: 40px; 
-  gap: 50px;
 }
-.container {
-  display: flex;
 
-  border: 14px solid blue;
-}
-**/
-
-/* .Dan,
+.Dan,
 .Jon,
 .Jean,
 .Pat,
 .Kira {
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
   padding: 20px;
 }
 
 .Dan {
-  background-color: hsl(263, 55%, 52%);
+  background-color: hsl(263, 22%, 22%);
   color: white;
+  padding: 20px;
+  grid-column: span 2;
 }
 .Jon {
-  background-color: hsl(217, 19%, 35%);
+  background-color: hsl(217, 19%, 32%);
   color: white;
+  padding: 20px;
 }
 .Jean {
   color: hsl(219, 29%, 14%);
+  padding: 20px;
 }
 .Pat {
   background-color: hsl(219, 29%, 14%);
   color: white;
+  grid-column: span 2;
+  padding: 20px;
 }
 .Kira {
-  color: hsl(217, 19%, 35%);
-} */
+  color: hsl(217, 19%, 32%);
+  grid-column: span 2;
+  padding: 20px;
+}
 
 footer {
   margin-top: 6px;
