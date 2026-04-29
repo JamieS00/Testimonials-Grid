@@ -1,14 +1,14 @@
 .container {
+  font-family: "Barlow Semi Condensed", sans-serif;
   border: 8px solid blue;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   font-size: 13px;
-  font-family: "Barlow Semi Condensed", sans-serif;
 }
 img {
   float: left;
-  border-radius: 20%;
+  border-radius: 50%;
   margin-right: 10px;
 }
 
