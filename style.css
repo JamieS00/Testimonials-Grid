@@ -2,7 +2,7 @@
   font-family: "Barlow Semi Condensed", sans-serif;
   border: 8px solid blue;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   font-size: 13px;
 }
@@ -45,8 +45,9 @@ img {
 }
 .Kira {
   color: hsl(217, 19%, 32%);
-  grid-column: span 2;
   padding: 20px;
+  grid-column: 3;
+  grid-row: span 2;
 }
 
 footer {
