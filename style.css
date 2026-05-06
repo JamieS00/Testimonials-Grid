@@ -5,13 +5,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* Using max-width and margin auto here to center the grid layout within the page */
 .grid-container {
   font-family: "Barlow Semi Condensed", sans-serif;
-  border: 8px solid blue;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   font-size: 13px;
+  max-width: 60%;
+  margin: 0 auto;
 }
 img {
   border-radius: 50%;
@@ -74,4 +76,5 @@ img {
 
 footer {
   text-align: center;
+  margin-top: 15px;
 }
