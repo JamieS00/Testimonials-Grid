@@ -13,11 +13,16 @@
   gap: 20px;
   font-size: 13px;
 }
-/* img {
-  float: left;
+img {
   border-radius: 50%;
-  margin-right: 10px;
-} */
+  width: 40px;
+  height: 40px;
+}
+.user-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 
 .Dan,
 .Jon,
