@@ -31,8 +31,9 @@ img {
 .Jean,
 .Pat,
 .Kira {
-  border: 2px solid black;
+  border: 1px solid white;
   border-radius: 10px;
+  box-shadow: 0 20px 40px hsla(212, 6%, 44%, 0.25);
   padding: 20px;
 }
 
