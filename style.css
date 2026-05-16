@@ -79,3 +79,20 @@ footer {
   text-align: center;
   margin-top: 15px;
 }
+
+/*Mobile Responsive*/
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  /*Doesn't force items into special position*/
+  .Dan,
+  .Jon,
+  .Jean,
+  .Pat,
+  .Kira {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
